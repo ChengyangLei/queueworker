@@ -1,6 +1,6 @@
 <style type="text/css">
     /*fix 分页样式*/
-    .pagination .active {
+    .pagination .active{
       float: left;
       padding: 6px 12px;
       line-height: 20px;
@@ -12,10 +12,9 @@
     }
 </style>
 <?php if (isset($this->Paginator)): ?>
-<ul class="pagination">
-    <!--<span class="total"><?php /*echo $this->Paginator->counter(array('separator'=>'/'));*/ ?></span>-->
-    <?php
-        echo $this->Paginator->numbers(array('separator' => '','tag'=>'li','currentClass'=>'active'));
-    ?>
-</ul>
+  <ul class="pagination">
+      <?php
+          echo $this->Paginator->numbers(array('separator' => '','tag'=>'li','currentClass'=>'active'));
+      ?>
+  </ul>
 <?php endif; ?>

@@ -58,24 +58,7 @@ class UsersController extends AppController {
     }
 
     public  function login( $action = '/Users/home') {
-        $this->layout = "default";
-
-        //寻找可用账号
-        $vip = $this->Vip->find('first',array(
-            'conditions'=>array(
-                "OR"=>array(
-                    'today <'=>date("Y-m-d"),
-                    array(
-                        'number < 20',
-                        'today ='=>date("Y-m-d"),
-                    )
-                )
-            ),
-        ));
-        if (!$vip) {
-            throw new Exception("系统错误,联系管理员！", 1);
-        }
-        $this->Session->write("vip",$vip['Vip']);
+        $this->layout = false;
         if ( $this->request->isPost() ) {
             $this->request->data['User']['email'] = trim( $this->request->data['User']['email'] );
             $this->request->data['User']['password'] = trim( $this->request->data['User']['password'] );
@@ -85,74 +68,35 @@ class UsersController extends AppController {
             $email = $postData['User']['email'];
             $password = $postData['User']['password'];
             $this->User->recursive = -1;
-            $this->User->cache=false;
+            $this->User->cache = false;
             $user = $this->User->findByEmail( $email );
-            if ( $user['User']['password'] != $password ) {
 
+            if(!$user){
                 $this->User->validationErrors = array(
-                    'password' => array( "密码错误" )
+                    'email' => array( "用户名不存在" )
                 );
-                $this->warning( '密码错误' );
-                return;          
-
-            }   
-
-            //管理员直接登陆
-            if ($user['User']['role'] == 'admin') {
-                $this->UserAuth->login( $user );
-                $uri = $this->Session->read( UserAuthComponent::originAfterLogin );
-                if ( !$uri ) {
-                    $uri = $action;
-                }
-                CakeSession::delete( 'Message.flash' );
-                $this->Session->delete( UserAuthComponent::originAfterLogin );
-                $this->redirect( $uri );
-            }
-
-            if (strtotime($user['User']['expired']) <= time()) {
-                $this->warning( '账户已经过期!' );
+                $this->warning( '用户名不存在' );
                 return;   
             }
 
-            // $loginParams为curl模拟登录时post的参数
-            $loginParams['UserName'] = $vip['Vip']['username'];
-            $loginParams['PassWord'] = $vip['Vip']['password'];
-            $loginParams['RememberMe'] = "true";
+            if ( $user['User']['password'] != $password ) {
+                $this->User->validationErrors = array(
+                    'password' => array( "用户名或密码错误" )
+                );
+                $this->warning( '用户名或密码错误' );
+                return;          
+            }   
 
-            $loginParams['VerifyCode'] = $postData['User']['captcha'];
-            $loginParams['backurl'] = "http://user.nipic.com";
-
-            // $cookieFile 为加载验证码时保存的cookie文件名 
-            $cookieFile = WWW_ROOT.'cookie.tmp';
-
-            // $targetUrl curl 提交的目标地址
-            $targetUrl = 'http://login.nipic.com';
-
-            //远程登陆
-            $ch = curl_init($targetUrl);
-            curl_setopt($ch,CURLOPT_COOKIEFILE, $cookieFile); //同时发送Cookie
-            curl_setopt($ch,CURLOPT_COOKIEJAR, $cookieFile); // 把返回来的cookie信息保存在文件中
-            curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
-            curl_setopt($ch,CURLOPT_POST, 1);
-            curl_setopt($ch,CURLOPT_POSTFIELDS, $loginParams); //提交查询信息
-            curl_setopt($ch, CURLOPT_FOLLOWLOCATION,1);  //是否抓取跳转后的页面
-            $content = curl_exec($ch);
-            curl_close($ch);
-
-            if (strpos($content,"/nibi/index")) {
-                $this->UserAuth->login( $user );
-                $this->succ("登陆成功!");
-                $this->redirect(array('action'=>'home'));
-            }else{
-                $error = array();
-                $preg = '<span class="field-validation-error".*>([^"]*)</span>';
-                preg_match("/span class=\"field-validation-error\".*\>([^\"]*)\<\/span/",$content,$error);
-                $this->error('登录失败!错误原因为:'.$error[1]);
-                $this->redirect(array('action'=>'login'));
+            $this->UserAuth->login( $user );
+            $uri = $this->Session->read( UserAuthComponent::originAfterLogin );
+            if ( !$uri ) {
+                $uri = $action;
             }
+            CakeSession::delete( 'Message.flash' );
+            $this->Session->delete( UserAuthComponent::originAfterLogin );
+            $this->redirect( $uri );
         }
     }
-
 
     /**
      * 验证码
@@ -411,11 +355,11 @@ class UsersController extends AppController {
         }
     }
 
-/**
- * admin_index method
- *
- * @return void
- */
+    /**
+     * admin_index method
+     *
+     * @return void
+     */
     public function admin_index() {
         $this->layout = "admin";
         $this->User->recursive = 0;
@@ -424,13 +368,12 @@ class UsersController extends AppController {
         );
         $this->set('data', $this->paginate());
     }
-
-
-/**
- * admin_add method
- *
- * @return void
- */
+    
+    /**
+     * admin_add method
+     *
+     * @return void
+     */
     public function admin_add() {
         if ($this->request->is('post')) {
             if ($this->User->save($this->request->data)) {

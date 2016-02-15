@@ -82,15 +82,14 @@ class AppController extends Controller {
             }
             $this->redirect( $url );
         }
-
     }
 
-    public function emailTo($body="")
+    public function emailTo($subject = "批量处理系统警告",$body="")
     {
         $this->Email = $this->Components->load("Email");
         $this->Email->smtpOptions = array(
             'transport' => 'Smtp',
-            'from' => array('linksgo2011@163.com' => '接单系统邮件'),
+            'from' => array('linksgo2011@163.com' => 'linksgo2011@163.com'),
             'host' => 'smtp.163.com',
             'port' => 25,
             'timeout' => 30,
@@ -99,11 +98,11 @@ class AppController extends Controller {
             'client' => null,
             'log' => false
         );
-
+        
         $this->Email->delivery = 'smtp';
         $this->Email->from = "linksgo2011@163.com";
         $this->Email->to = "120377843@qq.com";
-        $this->Email->subject = "接单系统邮件";
+        $this->Email->subject = $subject;
         $this->Email->send($body);
     }
 }

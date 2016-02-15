@@ -1,46 +1,79 @@
-<style type="text/css">
-#UserLoginForm {
-max-width: 400px;
-padding: 19px 29px 29px;
-margin: 40px auto 20px;
-background-color: #fff;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
--webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
--moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-margin:0 auto;
-position:relative;
-top:183px;
-left: -200px;
-}
-#UserLoginForm input[type="text"],#UserLoginForm input[type="password"] {
-font-size: 16px;
-height: auto;
-margin-bottom: 15px;
-padding: 7px 9px;
-}
-.masthead{display:none;}
-body{background:url(/app/webroot/img/bg.jpg) center top repeat-x;}
-#flashMessage{
-position: relative;
-top: 167px;
-width: 560px;
-margin-left: 94px;
-}
-</style>
-<div class="container">
-    <?php echo $this->BForm->create('User');?>
-    <?php echo $this->BForm->input('email', array('label'=>"邮箱", 'class'=>'input-block-level', 'placeholder'=>'注册邮箱'));?>
-    <?php echo $this->BForm->input('password', array('label'=>"密码", 'type'=>'password', 'class'=>'input-block-level', 'placeholder'=>'密码'));?>
-    <?php echo $this->BForm->input('captcha', array('label'=>"验证码", 'type'=>'text', 'class'=>'input-block-level', 'after'=>"<img id='captcha' src='/index.php/users/captcha'>"));?>
-    <?php echo $this->BForm->submit('登录', array('class'=>'btn btn-large btn-primary', 'type'=>'submit'));?>
-    <hr>    
-    <?php echo $this->Form->end();?>
-</div>
-<script type="text/javascript">
-    $("#captcha").click(function(){
-        $(this)[0].src = $(this)[0].src+"?r="+Math.random();
-    });
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>用户登录</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">欢迎使用 queueworker</h3>
+                    </div>
+                    <div class="panel-body">
+                        <?php echo $this->Session->flash(); ?>
+                        <form role="form" method="post">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" name="User[email]" type="email" autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" name="User[password]" type="password" value="">
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input name="remember" type="checkbox" value="Remember Me">记住密码
+                                    </label>
+                                </div>
+                                <input type="submit" class="btn btn-lg btn-success btn-block" value="登录" />
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
