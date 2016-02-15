@@ -1,7 +1,7 @@
 <?php 
 class UsersController extends AppController {
 
-    public $layout = "admin";
+    public $layout = "user";
     public $allow = array('register','login','captcha');
     public $prefixLayout = true;
     public $uses = array('User','Vip','Log');
@@ -10,7 +10,7 @@ class UsersController extends AppController {
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
     }
-
+    
     public function view($id = null) {
         $this->User->id = $id;
         if (!$this->User->exists()) {
@@ -368,7 +368,7 @@ class UsersController extends AppController {
         );
         $this->set('data', $this->paginate());
     }
-    
+
     /**
      * admin_add method
      *
