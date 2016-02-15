@@ -1,0 +1,1859 @@
+2014-02-19 14:59:22 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Users\login.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-19 14:59:22 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp\www\todo\trunk\lib\Cake\View\Helper\HtmlHelper.php, line 31]
+2014-02-19 14:59:22 Error: [FatalErrorException] Class 'AppHelper' not found
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-19 14:59:35 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Users\login.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-19 14:59:35 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp\www\todo\trunk\lib\Cake\View\Helper\HtmlHelper.php, line 31]
+2014-02-19 14:59:35 Error: [FatalErrorException] Class 'AppHelper' not found
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-19 15:00:07 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Users\login.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-19 15:00:07 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp\www\todo\trunk\lib\Cake\View\Helper\HtmlHelper.php, line 31]
+2014-02-19 15:00:07 Error: [FatalErrorException] Class 'AppHelper' not found
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-19 15:01:39 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Users\login.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-19 15:01:39 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp\www\todo\trunk\lib\Cake\View\Helper\HtmlHelper.php, line 31]
+2014-02-19 15:01:39 Error: [FatalErrorException] Class 'AppHelper' not found
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\wamp\www\tod...', 31, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-19 15:05:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:18:18 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:18:26 Error: [MissingActionException] Action PagesController::admin_index() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-19 15:18:31 Error: [MissingActionException] Action PagesController::admin_index() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-19 15:20:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:20:12 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:37:42 Error: [MissingTableException] Table pages for model Page was not found in datasource default.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('pages')
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(75): Controller->paginate()
+#7 [internal function]: PagesController->admin_index()
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-19 15:38:00 Error: [MissingModelException] User
+#0 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(75): Controller->paginate('User')
+#2 [internal function]: PagesController->admin_index()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-19 15:38:53 Error: [MissingModelException] User
+#0 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(75): Controller->paginate('User')
+#2 [internal function]: PagesController->admin_index()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-19 15:39:15 Error: [MissingModelException] User
+#0 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(75): Controller->paginate('User')
+#2 [internal function]: PagesController->admin_index()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-19 15:39:22 Error: [MissingModelException] User
+#0 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(75): Controller->paginate('User')
+#2 [internal function]: PagesController->admin_index()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-19 15:39:50 Error: [MissingModelException] User
+#0 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('User', Array, Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(76): Controller->paginate('User')
+#2 [internal function]: PagesController->admin_index()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-19 15:40:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\todo\trunk\todo\Controller\PagesController.php, line 75]
+2014-02-19 15:40:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\tod...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\tod...', 75, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\tod...', 75, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-19 15:41:09 Error: [MissingActionException] Action PagesController::admin_edit() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-19 15:42:48 Error: [MissingActionException] Action PagesController::admin_edit() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-19 15:47:59 Error: [MissingHelperException] Helper class BFormHelper could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('BForm')
+#1 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(812): HelperCollection->__isset('BForm')
+#2 C:\wamp\www\todo\trunk\todo\View\Users\admin_edit.ctp(8): View->__get('BForm')
+#3 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(920): include('C:\wamp\www\tod...')
+#4 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp\www\tod...', Array)
+#5 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(475): View->_render('C:\wamp\www\tod...')
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-19 15:49:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:52:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 16:00:01 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC, expecting ',' or ';' in [C:\wamp\www\todo\trunk\todo\Controller\UsersController.php, line 5]
+2014-02-19 16:00:01 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC, expecting ',' or ';'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 5, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 5, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-19 16:00:12 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC, expecting ',' or ';' in [C:\wamp\www\todo\trunk\todo\Controller\UsersController.php, line 5]
+2014-02-19 16:00:12 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC, expecting ',' or ';'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 5, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 5, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-19 16:00:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 16:00:25 Error: [MissingActionException] Action UsersController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:14:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:15:31 Error: [MissingControllerException] Controller class NewsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:17:12 Error: Fatal Error (4): syntax error, unexpected T_EXIT in [C:\wamp\www\todo\trunk\todo\Controller\UsersController.php, line 46]
+2014-02-20 14:17:12 Error: [FatalErrorException] syntax error, unexpected T_EXIT
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 46, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 46, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-20 14:21:56 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Users\admin_add.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-20 14:23:01 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Users\admin_add.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-20 14:24:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '120377843@qq.com' for key 'unique'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\UsersController.php(92): Model->save(Array)
+#5 [internal function]: UsersController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-20 14:28:09 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp\www\todo\trunk\todo\Controller\UsersController.php, line 94]
+2014-02-20 14:28:09 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 94)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 94, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 94, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-20 14:28:28 Error: [MissingControllerException] Controller class NewsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:30:00 Error: [MissingControllerException] Controller class TaskController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:31:06 Error: [MissingActionException] Action NewsController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:32:42 Error: [MissingControllerException] Controller class TaskController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:32:49 Error: [MissingActionException] Action TasksController::admin_add() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:32:51 Error: [MissingActionException] Action TasksController::add() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:32:55 Error: [MissingActionException] Action TasksController::add() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:34:01 Error: [MissingActionException] Action TasksController::inde() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:34:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:43:49 Error: [MissingActionException] Action TasksController::add() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:44:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:44:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:44:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:44:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:44:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:44:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:45:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:48:11 Error: [MissingControllerException] Controller class TaskController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:48:45 Error: [MissingControllerException] Controller class TaskController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:48:50 Error: [MissingControllerException] Controller class TaskController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:48:57 Error: [MissingActionException] Action TasksController::admin_index() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 14:50:23 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'todo.user' doesn't exist
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Task), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('all', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#9 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(213): Controller->paginate()
+#10 [internal function]: TasksController->admin_index()
+#11 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-20 14:50:55 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Tasks\admin_index.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-20 14:51:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('list', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('list', Array)
+#7 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(366): AppModel->find('list', Array)
+#8 [internal function]: TasksController->task_list()
+#9 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-02-20 14:51:23 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Tasks\admin_index.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-20 14:51:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'publisher_id' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(162): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-20 14:52:55 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Log), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(172): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-20 14:54:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Log), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(171): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-20 14:55:01 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Tasks\admin_index.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-20 14:58:09 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\todo\trunk\todo\View\Tasks\admin_index.ctp, line 33]
+2014-02-20 14:58:09 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 33, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 33, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-20 14:58:20 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [C:\wamp\www\todo\trunk\todo\View\Tasks\admin_index.ctp, line 33]
+2014-02-20 14:58:20 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ',' or ';'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 33, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 33, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-20 14:58:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 14:58:37 Error: [MissingActionException] Action TasksController::admin_ä¼˜åŒ–.jpg() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 15:11:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 15:24:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Log), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(177): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-20 15:25:50 Error: Fatal Error (4): syntax error, unexpected ';', expecting ',' or ')' in [C:\wamp\www\todo\trunk\todo\View\Tasks\admin_add.ctp, line 16]
+2014-02-20 15:25:50 Error: [FatalErrorException] syntax error, unexpected ';', expecting ',' or ')'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 16, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 16, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-20 15:36:16 Error: [MissingActionException] Action TasksController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 15:38:54 Error: [MissingActionException] Action TasksController::admin_edit() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-20 15:42:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Task.publisher_id' in 'on clause'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Task`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Task`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Task`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Task), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('first', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('first', Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(600): AppModel->find('first', Array)
+#8 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(784): DboSource->query('findById', Array, Object(Task))
+#9 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(218): Model->__call('findById', Array)
+#10 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(218): Task->findById('20')
+#11 [internal function]: TasksController->admin_edit('20')
+#12 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#13 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-02-20 15:50:57 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\todo\trunk\todo\Model\User.php, line 25]
+2014-02-20 15:50:57 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 25, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 25, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-20 15:59:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 16:05:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 16:05:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 16:08:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('list', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('list', Array)
+#7 C:\wamp\www\todo\trunk\todo\Model\User.php(34): AppModel->find('list', Array)
+#8 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(221): User->user_list(2)
+#9 [internal function]: TasksController->admin_view('18')
+#10 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-02-20 16:08:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('list', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('list', Array)
+#7 C:\wamp\www\todo\trunk\todo\Model\User.php(34): AppModel->find('list', Array)
+#8 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(221): User->user_list(2)
+#9 [internal function]: TasksController->admin_view('18')
+#10 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-02-20 16:09:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.name' in 'field list'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('list', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('list', Array)
+#7 C:\wamp\www\todo\trunk\todo\Model\User.php(34): AppModel->find('list', Array)
+#8 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(221): User->user_list(2)
+#9 [internal function]: TasksController->admin_view('18')
+#10 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-02-20 16:10:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.project' in 'where clause'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('list', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('list', Array)
+#7 C:\wamp\www\todo\trunk\todo\Model\User.php(34): AppModel->find('list', Array)
+#8 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(221): User->user_list(2)
+#9 [internal function]: TasksController->admin_view('18')
+#10 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-02-20 16:11:24 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'todo.user' doesn't exist
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TaskAss...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `TaskAss...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `TaskAss...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(TaskAssign), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('list', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('list', Array)
+#7 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(243): AppModel->find('list', Array)
+#8 [internal function]: TasksController->admin_view('18')
+#9 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-02-20 16:26:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 16:56:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 16:56:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-20 16:58:51 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Pages\.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName('')
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render('', NULL)
+#2 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(59): Controller->render('')
+#3 [internal function]: PagesController->display()
+#4 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-02-20 16:59:02 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Pages\display.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 12:38:12 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Pages\display.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 12:41:26 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Pages\display.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 12:42:48 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Pages\display.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 12:43:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('')
+#4 [internal function]: DboSource->query('')
+#5 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2996): call_user_func_array(Array, Array)
+#6 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(44): Model->query('')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-21 12:45:38 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Pages\.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName('')
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render('', NULL)
+#2 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(62): Controller->render('')
+#3 [internal function]: PagesController->display()
+#4 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-02-21 12:45:50 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:46:30 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:48:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 13:35:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Task.active' in 'where clause'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('all', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#9 C:\wamp\www\todo\trunk\todo\Controller\PagesController.php(56): Controller->paginate()
+#10 [internal function]: PagesController->display()
+#11 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-21 13:42:09 Error: [MissingControllerException] Controller class æµ‹è¯•ä¸€ä¸‹ï¼Œæ‹’ç»çš„ä»»åŠ¡ã€ã€Controller could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 15:10:08 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Pages\view.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 15:28:08 Error: [MissingControllerException] Controller class AssignController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 15:28:45 Error: [MissingControllerException] Controller class AssignController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 15:29:16 Error: [MissingControllerException] Controller class AssignController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 15:29:31 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Tasks\assign.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 15:34:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 15:34:14 Error: [MissingActionException] Action TasksController::assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-21 15:43:54 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp\www\todo\trunk\todo\Controller\TasksController.php, line 224]
+2014-02-21 15:43:54 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 224)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 224, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 224, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 15:45:42 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\todo\trunk\todo\Controller\TasksController.php, line 231]
+2014-02-21 15:45:42 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 231)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 231, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 231, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 15:45:49 Error: [NotFoundException] 404
+#0 [internal function]: TasksController->assign('18')
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 15:52:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 15:52:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 15:52:28 Error: [MissingActionException] Action UsersController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-21 16:11:19 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Tasks\edit_schel.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 16:12:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:16:26 Error: [MissingControllerException] Controller class DocController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:19:56 Error: [MissingControllerException] Controller class DocController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:20:04 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:20:09 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:22:02 Error: [MissingControllerException] Controller class ä¼˜åŒ–.jpgController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:22:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:22:50 Error: [MissingActionException] Action TasksController::admin_ä¼˜åŒ–.jpg() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-21 16:24:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:24:37 Error: [MissingActionException] Action TasksController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-21 16:30:06 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Task`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Task`.`...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Task`.`...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Task), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('first', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('first', Array)
+#7 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(157): AppModel->find('first', Array)
+#8 [internal function]: TasksController->admin_view('18')
+#9 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-02-21 16:35:07 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\todo\trunk\todo\View\Tasks\admin_view.ctp, line 8]
+2014-02-21 16:35:07 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 8, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 8, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 16:36:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'User'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TaskAss...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `TaskAss...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `TaskAss...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(TaskAssign), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('all', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#7 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(173): AppModel->find('all', Array)
+#8 [internal function]: TasksController->admin_view('18')
+#9 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-02-21 16:39:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 16:42:59 Error: [MissingActionException] Action TasksController::admin_take_assign() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-21 16:45:29 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Tasks\admin_take_assign.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-21 16:54:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'point' in field list is ambiguous
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('update users,ta...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('update users,ta...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('update users,ta...')
+#4 [internal function]: DboSource->query('update users,ta...')
+#5 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2996): call_user_func_array(Array, Array)
+#6 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(212): Model->query('update users,ta...')
+#7 [internal function]: TasksController->admin_take_assign('18', '3')
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-21 16:55:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'point' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(TaskAssign), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(252): Model->save(Array)
+#5 [internal function]: TasksController->assign('18')
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-21 16:56:09 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 4' at line 1
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('UPDATE `todo`.`...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\Database\Mysql.php(357): DboSource->execute('UPDATE `todo`.`...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2334): Mysql->update(Object(User), Array, NULL, Array)
+#4 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(167): Model->updateAll(Array, Array)
+#5 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(253): AppModel->updateAll(Array, Array)
+#6 [internal function]: TasksController->assign('18')
+#7 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-02-21 16:56:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.id' in 'where clause'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('update users,ta...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('update users,ta...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('update users,ta...')
+#4 [internal function]: DboSource->query('update users,ta...')
+#5 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2996): call_user_func_array(Array, Array)
+#6 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(212): Model->query('update users,ta...')
+#7 [internal function]: TasksController->admin_take_assign('18', '4')
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-21 17:18:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 18:07:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-22 13:50:00 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\todo\trunk\todo\View\Pages\home.ctp, line 15]
+2014-02-22 13:50:00 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\tod...', 15, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\tod...', 15, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-22 13:55:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-22 13:55:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-22 13:59:26 Error: [CakeException] Method onlyAllow does not exist
+#0 C:\wamp\www\todo\trunk\todo\Controller\NewsController.php(212): CakeRequest->__call('onlyAllow', Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\NewsController.php(212): CakeRequest->onlyAllow('post', 'delete')
+#2 [internal function]: NewsController->admin_delete('592')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-22 13:59:47 Error: [CakeException] Method onlyAllow does not exist
+#0 C:\wamp\www\todo\trunk\todo\Controller\NewsController.php(211): CakeRequest->__call('onlyAllow', Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\NewsController.php(211): CakeRequest->onlyAllow('post', 'delete')
+#2 [internal function]: NewsController->admin_delete('592')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-22 14:00:15 Error: [CakeException] Method onlyAllow does not exist
+#0 C:\wamp\www\todo\trunk\todo\Controller\NewsController.php(211): CakeRequest->__call('onlyAllow', Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\NewsController.php(211): CakeRequest->onlyAllow('post', 'delete')
+#2 [internal function]: NewsController->admin_delete('592')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-22 14:00:50 Error: [CakeException] Method onlyAllow does not exist
+#0 C:\wamp\www\todo\trunk\todo\Controller\UsersController.php(140): CakeRequest->__call('onlyAllow', Array)
+#1 C:\wamp\www\todo\trunk\todo\Controller\UsersController.php(140): CakeRequest->onlyAllow('post', 'delete')
+#2 [internal function]: UsersController->admin_delete('5')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-22 14:01:45 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->admin_delete('5')
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-22 14:12:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'unique'
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1582): Model->save(Array, Array)
+#5 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(41): Model->saveField('password', '123456')
+#6 [internal function]: TasksController->index()
+#7 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-02-22 14:13:25 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-22 14:22:09 Error: [MissingActionException] Action TasksController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-22 14:43:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT Task.*,T...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT Task.*,T...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT Task.*,T...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Task), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('all', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#9 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(43): Controller->paginate()
+#10 [internal function]: TasksController->index()
+#11 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-22 14:44:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT Task.*,T...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT Task.*,T...', Array, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT Task.*,T...', false)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Task), Array)
+#5 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(68): Model->find('all', Array)
+#6 C:\wamp\www\todo\trunk\todo\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#9 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(43): Controller->paginate()
+#10 [internal function]: TasksController->index()
+#11 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#12 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-02-23 12:23:01 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\todo\trunk\lib\Cake\View\View.php, line 1042]
+2014-02-23 12:23:01 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\tod...', 1042)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\tod...', 1042, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\tod...', 1042, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-23 12:23:01 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\CakeSession.php, line 615]
+2014-02-23 12:23:01 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\tod...', 615)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\tod...', 615, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\tod...', 615, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-23 13:59:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 13:59:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 14:00:35 Error: [MissingActionException] Action UsersController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-23 14:01:25 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 14:03:52 Error: [MissingActionException] Action TasksController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-23 14:14:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 14:37:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 14:49:19 Error: Fatal Error (1): Call to undefined method PagesController::find() in [C:\wamp\www\todo\trunk\todo\Controller\PagesController.php, line 65]
+2014-02-23 14:49:19 Error: [FatalErrorException] Call to undefined method PagesController::find()
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\tod...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\tod...', 65, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\tod...', 65, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-23 15:18:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:18:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:18:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:18:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:19:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:19:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:19:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:21:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:21:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:21:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:22:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:22:43 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:22:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:23:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:23:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:23:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:23:45 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:23:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:24:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:24:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:24:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:24:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:24:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:24:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:26:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:26:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:26:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:26:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:26:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:26:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:27:01 Error: [MissingActionException] Action NewsController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-23 15:27:01 Error: [MissingActionException] Action NewsController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-23 15:28:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:28:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:28:42 Error: [MissingActionException] Action NewsController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-23 15:28:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:28:58 Error: [MissingActionException] Action NewsController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-23 15:31:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:31:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:31:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:32:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:33:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:33:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-23 15:34:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 14:45:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 14:45:34 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 14:45:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 14:45:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 14:51:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 14:51:27 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'doc' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(131): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-24 14:52:02 Error: [MissingActionException] Action TasksController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-24 14:59:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 14:37:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 14:37:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 14:38:08 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 22:38:54 Error: [MissingActionException] Action NewsController::admin_assets() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-25 14:39:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 22:42:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 22:42:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 22:43:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 23:39:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 23:40:13 Error: Fatal Error (1): Call to a member function send() on a non-object in [C:\wamp\www\todo\trunk\todo\Controller\AppController.php, line 101]
+2014-02-25 23:40:13 Error: [FatalErrorException] Call to a member function send() on a non-object
+#0 C:\wamp\www\todo\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\tod...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\tod...', 101, Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\tod...', 101, Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-25 23:40:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'doc' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(131): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-25 23:45:39 Error: [MissingActionException] Action TasksController::emailTo=test() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-25 23:45:54 Error: [MissingActionException] Action TasksController::emailTo=test() could not be found.
+#0 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-25 23:46:05 Error: [SocketException] Invalid email: "smtp.163.com"
+#0 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(567): CakeEmail->_setEmail('_from', Array, NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(353): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#2 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(1141): CakeEmail->from(Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(1032): CakeEmail->_applyConfig(Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\EmailComponent.php(340): CakeEmail->config(Array)
+#5 C:\wamp\www\todo\trunk\todo\Controller\AppController.php(107): EmailComponent->send('test')
+#6 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(552): AppController->emailTo('test')
+#7 [internal function]: TasksController->emailTo()
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-25 23:46:16 Error: [SocketException] Invalid email: "smtp.163.com"
+#0 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(567): CakeEmail->_setEmail('_from', Array, NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(353): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#2 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(1141): CakeEmail->from(Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(1032): CakeEmail->_applyConfig(Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\EmailComponent.php(340): CakeEmail->config(Array)
+#5 C:\wamp\www\todo\trunk\todo\Controller\AppController.php(107): EmailComponent->send('test')
+#6 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(552): AppController->emailTo('test')
+#7 [internal function]: TasksController->emailTo('emailTo')
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-25 23:46:49 Error: [SocketException] Invalid email: "smtp.163.com"
+#0 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(567): CakeEmail->_setEmail('_from', Array, NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(353): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#2 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(1141): CakeEmail->from(Array)
+#3 C:\wamp\www\todo\trunk\lib\Cake\Network\Email\CakeEmail.php(1032): CakeEmail->_applyConfig(Array)
+#4 C:\wamp\www\todo\trunk\lib\Cake\Controller\Component\EmailComponent.php(340): CakeEmail->config(Array)
+#5 C:\wamp\www\todo\trunk\todo\Controller\AppController.php(107): EmailComponent->send('test')
+#6 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(552): AppController->emailTo('test')
+#7 [internal function]: TasksController->emailTo('emailTo')
+#8 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-25 23:49:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'doc' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(131): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-25 23:49:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'doc' cannot be null
+#0 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `to...', Array)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `to...')
+#3 C:\wamp\www\todo\trunk\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\todo\trunk\todo\Controller\TasksController.php(131): Model->save(Array)
+#5 [internal function]: TasksController->admin_add()
+#6 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-02-26 00:24:22 Error: [MissingViewException] View file "C:\wamp\www\todo\trunk\todo\View\Tasks\email_to.ctp" is missing.
+#0 C:\wamp\www\todo\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\todo\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\todo\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\todo\trunk\todo\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-27 20:59:24 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('tasks')
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Task', Array, Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Controller\PagesController.php(57): Controller->paginate('Task')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-27 21:05:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-27 21:05:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-27 22:10:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 10:52:15 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('tasks')
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Task', Array, Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Controller\PagesController.php(57): Controller->paginate('Task')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-01 10:54:20 Error: [MissingControllerException] Controller class TasksController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 10:58:25 Error: [MissingControllerException] Controller class TasksController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 10:58:34 Error: [MissingViewException] View file "C:\wamp\www\shelp\trunk\shelp\View\Users\index.ctp" is missing.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-01 10:58:41 Error: [MissingControllerException] Controller class DocsController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 10:59:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docs.active' in 'where clause'
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 C:\wamp\www\shelp\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 C:\wamp\www\shelp\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Doc), Array)
+#5 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#7 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#9 C:\wamp\www\shelp\trunk\shelp\Controller\DocsController.php(30): Controller->paginate()
+#10 [internal function]: DocsController->index()
+#11 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#12 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-03-01 11:00:13 Error: [MissingViewException] View file "C:\wamp\www\shelp\trunk\shelp\View\Docs\index.ctp" is missing.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-01 11:01:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 11:01:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 11:06:51 Error: [MissingControllerException] Controller class DocController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 11:06:51 Error: [MissingActionException] Action DocsController::assets() could not be found.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-01 11:09:05 Error: [MissingViewException] View file "C:\wamp\www\shelp\trunk\shelp\View\Docs\add.ctp" is missing.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-01 11:13:27 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('tasks')
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Task', Array, Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Controller\PagesController.php(57): Controller->paginate('Task')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-01 11:14:30 Error: [MissingControllerException] Controller class TasksController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 11:17:53 Error: [MissingControllerException] Controller class TasksController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 11:23:49 Error: [MissingViewException] View file "C:\wamp\www\shelp\trunk\shelp\View\Docs\edit.ctp" is missing.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-01 11:26:11 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\shelp\trunk\shelp\Controller\DocsController.php, line 85]
+2014-03-01 11:26:11 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\she...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\she...', 85, Array)
+#2 C:\wamp\www\shelp\trunk\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\she...', 85, Array)
+#3 C:\wamp\www\shelp\trunk\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-01 11:36:55 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('tasks')
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Task', Array, Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Controller\PagesController.php(57): Controller->paginate('Task')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-01 12:24:43 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('tasks')
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Task', Array, Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Controller\PagesController.php(57): Controller->paginate('Task')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-01 12:25:10 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('tasks')
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Task', Array, Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Controller\PagesController.php(57): Controller->paginate('Task')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-01 12:29:31 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('tasks')
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#3 C:\wamp\www\shelp\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#4 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#5 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Task', Array, Array)
+#6 C:\wamp\www\shelp\trunk\shelp\Controller\PagesController.php(57): Controller->paginate('Task')
+#7 [internal function]: PagesController->display()
+#8 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-01 12:35:05 Error: [MissingViewException] View file "C:\wamp\www\shelp\trunk\shelp\View\Pages\display.ctp" is missing.
+#0 C:\wamp\www\shelp\trunk\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\shelp\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\shelp\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-01 12:57:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-01 13:24:56 Error: [MissingControllerException] Controller class TasksController could not be found.
+#0 C:\wamp\www\shelp\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-13 23:56:54 Error: 
+HTTP_HOST  http://old.shelp.com/users/login
+HTTP_REFERER= http://old.shelp.com/
+HTTP_USER_AGENT= Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+SCRIPT_FILENAME= E:/www/shelp_old/trunk/shelp/webroot/index.phparray (
+)array (
+)
+2014-06-13 23:56:54 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+" is missing, or could not be created.
+#0 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\www\shelp_old\trunk\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('master')
+#3 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1092): Model->setDataSource('master')
+#4 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('users')
+#5 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 E:\www\shelp_old\trunk\shelp\View\Helper\BFormHelper.php(22): FormHelper->create('User', Array)
+#9 E:\www\shelp_old\trunk\shelp\View\Users\login.ctp(28): BFormHelper->create('User', Array)
+#10 E:\www\shelp_old\trunk\lib\Cake\View\View.php(920): include('E:\www\shelp_ol...')
+#11 E:\www\shelp_old\trunk\lib\Cake\View\View.php(883): View->_evaluate('E:\www\shelp_ol...', Array)
+#12 E:\www\shelp_old\trunk\lib\Cake\View\View.php(475): View->_render('E:\www\shelp_ol...')
+#13 E:\www\shelp_old\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#14 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#15 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#16 E:\www\shelp_old\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-06-13 23:57:15 Error: 
+HTTP_HOST  http://old.shelp.com/users/login
+HTTP_REFERER= http://old.shelp.com/
+HTTP_USER_AGENT= Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+SCRIPT_FILENAME= E:/www/shelp_old/trunk/shelp/webroot/index.phparray (
+)array (
+)
+2014-06-13 23:57:15 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+" is missing, or could not be created.
+#0 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\www\shelp_old\trunk\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('master')
+#3 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1092): Model->setDataSource('master')
+#4 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('users')
+#5 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 E:\www\shelp_old\trunk\shelp\View\Helper\BFormHelper.php(22): FormHelper->create('User', Array)
+#9 E:\www\shelp_old\trunk\shelp\View\Users\login.ctp(28): BFormHelper->create('User', Array)
+#10 E:\www\shelp_old\trunk\lib\Cake\View\View.php(920): include('E:\www\shelp_ol...')
+#11 E:\www\shelp_old\trunk\lib\Cake\View\View.php(883): View->_evaluate('E:\www\shelp_ol...', Array)
+#12 E:\www\shelp_old\trunk\lib\Cake\View\View.php(475): View->_render('E:\www\shelp_ol...')
+#13 E:\www\shelp_old\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#14 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#15 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#16 E:\www\shelp_old\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-06-14 00:00:10 Error: 
+HTTP_HOST  http://old.shelp.com/users/login
+HTTP_REFERER= http://old.shelp.com/
+HTTP_USER_AGENT= Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+SCRIPT_FILENAME= E:/www/shelp_old/trunk/shelp/webroot/index.phparray (
+)array (
+)
+2014-06-14 00:00:10 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+" is missing, or could not be created.
+#0 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\www\shelp_old\trunk\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('master')
+#3 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1092): Model->setDataSource('master')
+#4 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('users')
+#5 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 E:\www\shelp_old\trunk\shelp\View\Helper\BFormHelper.php(22): FormHelper->create('User', Array)
+#9 E:\www\shelp_old\trunk\shelp\View\Users\login.ctp(28): BFormHelper->create('User', Array)
+#10 E:\www\shelp_old\trunk\lib\Cake\View\View.php(920): include('E:\www\shelp_ol...')
+#11 E:\www\shelp_old\trunk\lib\Cake\View\View.php(883): View->_evaluate('E:\www\shelp_ol...', Array)
+#12 E:\www\shelp_old\trunk\lib\Cake\View\View.php(475): View->_render('E:\www\shelp_ol...')
+#13 E:\www\shelp_old\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#14 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#15 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#16 E:\www\shelp_old\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-06-14 00:00:32 Error: 
+HTTP_HOST  http://old.shelp.com/users/login
+HTTP_REFERER= http://old.shelp.com/
+HTTP_USER_AGENT= Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+SCRIPT_FILENAME= E:/www/shelp_old/trunk/shelp/webroot/index.phparray (
+)array (
+)
+2014-06-14 00:00:32 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+" is missing, or could not be created.
+#0 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\www\shelp_old\trunk\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('master')
+#3 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1092): Model->setDataSource('master')
+#4 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3179): Model->setSource('users')
+#5 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 E:\www\shelp_old\trunk\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 E:\www\shelp_old\trunk\shelp\View\Helper\BFormHelper.php(22): FormHelper->create('User', Array)
+#9 E:\www\shelp_old\trunk\shelp\View\Users\login.ctp(28): BFormHelper->create('User', Array)
+#10 E:\www\shelp_old\trunk\lib\Cake\View\View.php(920): include('E:\www\shelp_ol...')
+#11 E:\www\shelp_old\trunk\lib\Cake\View\View.php(883): View->_evaluate('E:\www\shelp_ol...', Array)
+#12 E:\www\shelp_old\trunk\lib\Cake\View\View.php(475): View->_render('E:\www\shelp_ol...')
+#13 E:\www\shelp_old\trunk\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#14 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#15 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#16 E:\www\shelp_old\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-06-14 00:00:49 Error: 
+HTTP_HOST  http://old.shelp.com/Docs/index
+HTTP_REFERER= http://old.shelp.com/users/login
+HTTP_USER_AGENT= Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+SCRIPT_FILENAME= E:/www/shelp_old/trunk/shelp/webroot/index.phparray (
+)array (
+)
+2014-06-14 00:00:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Doc.active' in 'where clause'
+#0 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Doc), Array)
+#5 E:\www\shelp_old\trunk\shelp\Model\AppModel.php(68): Model->find('all', Array)
+#6 E:\www\shelp_old\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('all', Array)
+#7 E:\www\shelp_old\trunk\lib\Cake\Controller\Component\PaginatorComponent.php(174): AppModel->find('all', Array)
+#8 E:\www\shelp_old\trunk\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#9 E:\www\shelp_old\trunk\shelp\Controller\DocsController.php(36): Controller->paginate()
+#10 [internal function]: DocsController->index()
+#11 E:\www\shelp_old\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#12 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#14 E:\www\shelp_old\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-06-14 00:06:17 Error: 
+HTTP_HOST  http://old.shelp.com/Docs/add
+HTTP_REFERER= http://old.shelp.com/Docs/add
+HTTP_USER_AGENT= Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+SCRIPT_FILENAME= E:/www/shelp_old/trunk/shelp/webroot/index.phparray (
+  '_method' => 'POST',
+  'data' => 
+  array (
+    'Doc' => 
+    array (
+      'id' => '',
+      'title' => 'æµ‹è¯•æ–‡æ¡£',
+      'base_url' => 'www.baidu.com',
+      'keywords' => 'å…³é”®è¯',
+      'content' => 'å†…å®¹<img src="/doc/20140614000614_23610.jpg" alt="" />',
+    ),
+  ),
+)array (
+)
+2014-06-14 00:06:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Doc.base_url' in 'where clause'
+#0 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 E:\www\shelp_old\trunk\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Doc), Array)
+#5 E:\www\shelp_old\trunk\shelp\Model\AppModel.php(68): Model->find('count', Array)
+#6 E:\www\shelp_old\trunk\shelp\Model\AppModel.php(102): AppModel->findFromSlave('count', Array)
+#7 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(2983): AppModel->find('count', Array)
+#8 [internal function]: Model->isUnique(Array, Array)
+#9 E:\www\shelp_old\trunk\lib\Cake\Model\Validator\CakeValidationRule.php(272): call_user_func_array(Array, Array)
+#10 E:\www\shelp_old\trunk\lib\Cake\Model\Validator\CakeValidationSet.php(133): CakeValidationRule->process('base_url', Array, Array)
+#11 E:\www\shelp_old\trunk\lib\Cake\Model\ModelValidator.php(268): CakeValidationSet->validate(Array, false)
+#12 E:\www\shelp_old\trunk\lib\Cake\Model\ModelValidator.php(99): ModelValidator->errors(Array)
+#13 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(3009): ModelValidator->validates(Array)
+#14 E:\www\shelp_old\trunk\lib\Cake\Model\Model.php(1643): Model->validates(Array)
+#15 E:\www\shelp_old\trunk\shelp\Controller\DocsController.php(64): Model->save(Array)
+#16 [internal function]: DocsController->add()
+#17 E:\www\shelp_old\trunk\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#18 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#19 E:\www\shelp_old\trunk\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#20 E:\www\shelp_old\trunk\shelp\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
