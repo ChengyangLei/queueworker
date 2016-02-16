@@ -61039,3 +61039,21 @@ Request URL: //img/cake.power.gif
 Stack Trace:
 #0 D:\workspace\queueworker\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-02-16 18:22:23 Error: [MissingControllerException] Controller class StaticController could not be found.
+Exception Attributes: array (
+  'class' => 'StaticController',
+  'plugin' => NULL,
+)
+Request URL: //static/images/screenshot.png
+Stack Trace:
+#0 D:\workspace\queueworker\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-02-16 18:22:23 Error: [MissingControllerException] Controller class StaticController could not be found.
+Exception Attributes: array (
+  'class' => 'StaticController',
+  'plugin' => NULL,
+)
+Request URL: //static/images/preferences.png
+Stack Trace:
+#0 D:\workspace\queueworker\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

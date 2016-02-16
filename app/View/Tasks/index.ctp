@@ -38,11 +38,11 @@
                                 <?php if ($task['Task']['status'] == 0): ?>
                                     <?php echo $this->Html->link(__('开始'), array('action' => 'start', $task['Task']['id'])); ?>
                                     <?php elseif($task['Task']['status'] == 1): ?>
-                                    <?php echo $this->Html->link(__('停止'), array('action' => 'end', $task['Task']['id'])); ?>
+                                    <?php echo $this->Html->link(__('暂停'), array('action' => 'end', $task['Task']['id'])); ?>
                                 <?php endif ?>
 								<?php echo $this->Html->link(__('查看'), array('action' => 'view', $task['Task']['id'])); ?>
 								<?php echo $this->Html->link(__('编辑'), array('action' => 'edit', $task['Task']['id'])); ?>
-								<?php echo $this->Form->postLink(__('删除'), array('action' => 'delete', $task['Task']['id']), array(), __('Are you sure you want to delete # %s?', $task['Task']['id'])); ?>
+								<?php echo $this->Form->postLink(__('取消'), array('action' => 'delete', $task['Task']['id']), array(), __('是否要取消本次任务?', $task['Task']['id'])); ?>
 							</td>
 						</tr>
 					<?php endforeach; ?>

@@ -18,6 +18,8 @@ class Task extends AppModel {
 	public $displayField = 'title';
 
 	public $status_arr = array(0 => "未开始",1=>"运行中",2 => "已完成");
+
+	public $project_id_arr = array(1 => "domain");
 /**
  * Validation rules
  *
