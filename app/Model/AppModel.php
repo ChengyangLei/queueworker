@@ -206,18 +206,4 @@ class AppModel extends Model {
         }
         return true;
     }
-
-    /**
-     * 检查是否为手机号
-     *
-     * @author LinYang
-     * @param  int/string  $check
-     * @return bool
-     */
-    public function validate_mobile($value)
-    {
-        $mobile = @$value['mobile'];
-        return preg_match("/^(?:13\d|18\d|14\d|15\d)-?\d{5}(\d{3}|\*{3})$/", $mobile);
-    }
 }
-

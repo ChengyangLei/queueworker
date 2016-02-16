@@ -48,7 +48,7 @@
             </div>
             <!-- /.navbar-header -->
             <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown open">
+                <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
                         <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
@@ -120,8 +120,8 @@
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> 个人资料</a></li>
-                        <li><a href="#"><i class="fa fa-lock fa-fw"></i> 修改密码</a></li>
+                        <li><a href="/Users/profile"><i class="fa fa-user fa-fw"></i> 个人资料</a></li>
+                        <li><a href="/Users/password"><i class="fa fa-lock fa-fw"></i> 修改密码</a></li>
                         <li class="divider"></li>
                         <li><a href="/Users/logout"><i class="fa fa-sign-out fa-fw"></i> 退出</a></li>
                     </ul>
@@ -152,15 +152,15 @@
                             <a href="#"><i class="fa fa-users"></i> 任务管理<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/admin/Users">任务列表</a>
+                                    <a href="/Tasks/index">任务列表</a>
                                 </li>
                                 <li>
-                                    <a href="/admin/Users/add">添加任务</a>
+                                    <a href="/Tasks/add">添加任务</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href=""><i class="fa fa-flask fa-fw"></i> 提交需求</a>
+                            <a href="#"><i class="fa fa-flask fa-fw"></i> 提交需求</a>
                         </li>
                     </ul>
                 </div>

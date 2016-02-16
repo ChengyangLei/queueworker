@@ -58,7 +58,7 @@ class AppController extends Controller {
     }
 
     public function error( $message ) {
-        $this->Session->setFlash( $message, 'default', array( 'class' => 'alert alert-error' ) );
+        $this->Session->setFlash( $message, 'default', array( 'class' => 'alert alert-danger' ) );
     }
 
     public function warning( $message ) {

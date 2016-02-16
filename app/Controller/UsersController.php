@@ -2,9 +2,9 @@
 class UsersController extends AppController {
 
     public $layout = "user";
-    public $allow = array('register','login','captcha');
+    public $allow = array('register','login');
     public $prefixLayout = true;
-    public $uses = array('User','Vip','Log');
+    public $uses = array('User');
 
     public function index() {
         $this->User->recursive = 0;
@@ -98,176 +98,51 @@ class UsersController extends AppController {
         }
     }
 
-    /**
-     * 验证码
-     */
-    public function captcha()
-    {
-        header('Content-Type:image/png');
-        $cookieFile = WWW_ROOT.'cookie.tmp';
-        $ch = curl_init("http://login.nipic.com/account/verifycode?r=0.03192671708666017");
-        curl_setopt($ch,CURLOPT_COOKIEJAR, $cookieFile); // 把返回来的cookie信息保存在文件中
-        curl_exec($ch);
-        curl_close($ch);
-        $this->_stop();
-    }
-
-
-    /**
-     * 是否昵图网下载登陆
-     */
-    public function isOtherLogin()
-    {
-        $cookieFile = WWW_ROOT.'cookie.tmp';
-        $ch = curl_init("http://user.nipic.com/");
-        curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch,CURLOPT_COOKIEFILE, $cookieFile); //同时发送Cookie
-        curl_setopt($ch,CURLOPT_COOKIEJAR, $cookieFile); // 把返回来的cookie信息保存在文件中
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION,1);  //是否抓取跳转后的页面
-        $content = curl_exec($ch);
-        curl_close($ch);
-        return strpos($content,"我的昵图");
-    }
-
-    /**
-     * down 下载
-     */
-    public function down()
-    {
-        // http://file564d4.nipic.com/0000-00-00/downvsid.asp?clink=http://file564d4.nipic.com/20140813/Nipic_2160477_32696b40b65db586.zip&ctime=2014/9/1%2023:26:43&ccode=ad23a34fc8c2432e83eb9ac20735eb47&ckind=1&ctout=2014/9/2%202:13:23
-        if (!$this->isOtherLogin()) {
-            $this->error("先登录！");
-            $this->redirect(array('controller'=>'Users','action'=>'login'));
-        }
-
-        $user = $this->UserAuth->getUser();
-        $user_id = $this->UserAuth->getUserId();
-        if ($user['User']['number'] <= 0) {
-            $this->error("账户余额不足!");
-            $this->redirect(array('controller'=>'Users','action'=>'home'));
-        }
-        $url = $this->request->data['url'];
-        if (!$url) {
-            $this->error("错误填写!");
-            $this->redirect($this->referer());
-        }
-        $id = array();
-        preg_match("/[0-9]+/",$url,$id);
-        $id = $id[0];
-        if (!is_numeric($id)) {
-            $this->error("没有找到目标信息!");
-            $this->redirect($this->referer());
-        }
-        $loginParams = array('id'=>$id,'kid'=>2);
-        $cookieFile = WWW_ROOT.'cookie.tmp';
-        $ch = curl_init("http://down.nipic.com/ajax/download_go");
-        curl_setopt($ch,CURLOPT_COOKIEFILE, $cookieFile); //同时发送Cookie
-        curl_setopt($ch,CURLOPT_COOKIEJAR, $cookieFile); // 把返回来的cookie信息保存在文件中
-        curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch,CURLOPT_POST, 1);
-        curl_setopt($ch,CURLOPT_POSTFIELDS, $loginParams); //提交查询信息
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION,1);  //是否抓取跳转后的页面
-        $content = curl_exec($ch);
-        curl_close($ch);   
-        $content = json_decode($content,true);
-        if ($content['code'] == 1000) {
-
-            //日志
-            $this->loadModel("Log");
-            $this->Log->create(
-                array(
-                    'user_id'=>$this->UserAuth->getUserId(),
-                    'url'=>$url,
-                )
-            );
-            $this->Log->save();
-            //更新下载次数
-            $vip =  $this->Session->read("vip");
-            $vip = $this->Vip->read(null,$vip['id']);
-            $vip = $vip['Vip'];
-
-            if ($vip['today'] == date("Y-m-d")) {
-                $this->Vip->updateAll(array('number'=>"number + 1"),array('id'=>$vip['id']));
-            }else{
-                $this->Vip->id = $vip['id'];
-                $this->Vip->saveField('number',1);
-                $this->Vip->saveField('today',date('Y-m-d'));
-            }
-            //更新用户个数
-            $this->User->updateAll(array('number'=>'number - 1'),array('User.id'=>$user_id));
-            $this->UserAuth->flashUser($user_id);
-
-            $this->redirect($content['data']['url']);
-        }else{
-            $this->error("请求失败。错误信息:".$content['mes']);
-            $this->redirect($this->referer());
-        }
-    }
-
-    public function logs()
-    {
-        $this->layout = "default";
-        $user_id = $this->UserAuth->getUserId();
-        $conditions = array('user_id'=>$user_id);
-
-        $query = $this->request->query;
-        if ($query['start_time']) {
-            $conditions['Log.created >= '] = strtotime($query['start_time']);
-        }
-        if ($query['end_time']) {
-            $conditions['Log.created <= '] = strtotime($query['end_time']);
-        }
-        if ($query['url']) {
-            $conditions['Log.url like '] = "%".$query['url']."%";
-        }
-        $this->request->data['Log'] = $query;
-        $this->paginate = array(
-            'conditions'=>$conditions,
-            'order'=>array('Log.id desc'),
-        );
-        $data = $this->paginate("Log");
-        $this->set('data',$data);
-    }
-
-    public function admin_logs()
-    {
-        $conditions = array();
-        $query = $this->request->query;
-        if ($query['start_time']) {
-            $conditions['Log.created >= '] = strtotime($query['start_time']);
-        }
-        if ($query['end_time']) {
-            $conditions['Log.created <= '] = strtotime($query['end_time']);
-        }
-        if ($query['url']) {
-            $conditions['Log.url like '] = "%".$query['url']."%";
-        }
-        $this->request->data['Log'] = $query;
-        $this->paginate = array(
-            'conditions'=>$conditions,
-            'order'=>"Log.id desc"
-        );
-        $data = $this->paginate("Log");
-        $this->set('data',$data);
-    }
-
     public function logout() {
         $this->UserAuth->logout();
         $this->redirect( array( 'action' => 'login' ) );
     }
-
+    
     public function home()
     {
-        $this->layout = "default";
-        if($this->request->isPost()){
-            $data  = $this->request->data;
-        }
-        // $this->isOtherLogin();
+        $this->layout = "user";
     }
 
+    /**
+     * 个人资料
+     * @return [type] [description]
+     */
+    public function profile()
+    {
+        $active_arr = $this->User->active_arr;
+        $this->set(compact('active_arr'));
+        $id = $this->UserAuth->getUserId();
+
+        $me = $this->UserAuth->getUser();
+        $role_arr = $this->User->role_arr;
+        $this->set('role_arr',$role_arr);
+        if ($this->request->isPost() || $this->request->isPut()){
+            $post_data = $this->request->data;
+
+            $this->User->id = $id;
+            if ($this->User->save($post_data)) {
+                 $this->succ('修改成功!');
+                 $this->redirect($this->request->referer());
+            }else{
+                $this->error('修改失败');
+            }
+        } else {
+            $options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
+            $this->request->data = $this->User->find('first', $options);
+        }
+    }
+
+    /**
+     * 修改密码
+     * @return [type] [description]
+     */
     public function password()
     {
-        $this->layout = "default";
         $active_arr = $this->User->active_arr;
         $this->set(compact('active_arr'));
         $id = $this->UserAuth->getUserId();
@@ -299,18 +174,17 @@ class UsersController extends AppController {
             }
             $this->User->id = $id;
             if ($this->User->save($post_data)) {
-                 $this->succ('修改成功!');
+                 $this->succ('修改成功,请重新登陆!');
                  $this->redirect(array('controller'=>'Users','action'=>'login','admin'=>false));
             }else{
                 $this->error('修改失败'.print_r($this->User->validationErrors,true));
             }
-        } else {
-            $options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
-            $this->request->data = $this->User->find('first', $options);
         }
     }
 
-
+    /**
+     * 管理员修改密码
+     */
     public function admin_password()
     {
         $active_arr = $this->User->active_arr;
@@ -409,13 +283,6 @@ class UsersController extends AppController {
         }
     }
 
-/**
- * admin_delete method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
     public function admin_delete($id = null) {
         $this->User->id = $id;
         if (!$this->User->exists()) {

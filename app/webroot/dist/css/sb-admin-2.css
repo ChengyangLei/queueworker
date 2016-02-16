@@ -352,3 +352,15 @@ table.dataTable thead .sorting:after {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+.page-header{
+    margin:20px 0px 10px 0px;
+}
+.error-message{
+    color:#f40;
+    margin-top:3px;
+}
+#flashMessage{
+    margin-top:10px;
+    margin-bottom:0px;
+}

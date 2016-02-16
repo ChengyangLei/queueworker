@@ -37,6 +37,9 @@ class PagesController extends AppController {
 	public $uses = array();
 
     public $layout = "page";
+
+    public $allow = true;
+    
 /**
  * Displays a view
  *
